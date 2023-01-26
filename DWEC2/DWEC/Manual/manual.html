@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>MANUAL DE ETIQUETAS HTML</h1>
+    </header>
+    <hr>
+    <h1>Etiqueta 'h1', 'h2', 'h3', 'h4', 'h5' y 'h6' - Se utiliza para títulos o subtítulos.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;h2&gt;Esto es un título.&lt;/h2&gt;</p>
+    <h4>RESULTADO:</h4>
+    <h2>Esto es un título.</h2>
+    <hr>
+
+    <h1>Etiqueta 'p' - Se utiliza para escribir parágrafos.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;p&gt;Esto es un parágrafo.&lt;/p&gt;</p>
+    <h4>RESULTADO:</h4>
+    <p>Esto es un parágrafo.</p>
+    <hr>
+
+    <h1>Etiqueta 'a' - Establece un vínculo.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;a&gt;Esto es un vínculo.&lt;/a&gt;</p>
+    <p>En esta etiqueta se suele utilizar el atributo 'href' para la dirección del vínculo.</p>
+    <p>&lt;a href="Aquí está la dirección" Wikipedia&lt;/a&gt;</p>
+    <h4>RESULTADO:</h4>
+    <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">Wikipedia</a>
+    <hr>
+
+    <h1>Etiqueta 'img' - Se utiliza para insertar imágenes.</h1>
+    <p>Se suele utilizar los atributos 'src' para establecer qué images se va a insertar; y 'alt' para indicar el texto alternativo de la imagen.</p>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;img&gt; src="Aquí está la url de la imagen" alt="Aquí está el texto alternativo"&gt;</p>
+    <h4>RESULTADO:</h4>
+    <img src="imagenes/abc.jpg" alt="abc">
+    <hr>
+
+    <h1>Etiqueta 'br' - Se utiliza para un salto de línea.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;p&gt;Esto es un salto &lt;br&gt; de línea.&lt;/p&gt;</p>
+    <h4>RESULTADO:</h4>
+    <p>Esto es un salto <br> de línea.</p>
+    <hr>
+
+    <h1>Etiqueta 'form' - Se utiliza para formularios.</h1>
+    <p>Dentro de 'form' podemos poner las siguientes etiquetas:</p>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;form&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Nombre:&lt;/label&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text"&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;label&gt;Apellido:&lt;/label&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="text"&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="submit" value="Enviar"&gt;</p>
+    <p>&lt;/form&gt;</p>
+    <h4>RESULTADO:</h4>
+    <form action="">
+        <label for="">Nombre:</label>
+        <input type="text">
+        <label for="">Apellido:</label>
+        <input type="text">
+        <input type="submit" value="Enviar">
+    </form>
+    <hr>
+
+    <h1>Etiqueta 'b' - Se utiliza para poner el texto en negrita.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;p&gt;Este texto NO está en negrita &lt;b&gt;Este texto SI está en negrita&lt;/b&gt;&lt;/p&gt;</p>
+    <h4>RESULTADO:</h4>
+    <p>Este texto NO está en negrita <b>Este texto SI está en negrita</b></p>
+    <hr>
+
+    <h1>Etiqueta 'i' - Se utiliza para poner el texto en cursiva.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;p&gt;Este texto NO está en cursiva &lt;i&gt;Este texto SI está en cursiva&lt;/i&gt;&lt;/p&gt;</p>
+    <h4>RESULTADO:</h4>
+    <p>Este texto NO está en cursiva <i>Este texto SI está en cursiva</i></p>
+    <hr>
+
+    <h1>Etiqueta 'ul' - Se utiliza para definir una lista desordenada.</h1>
+    <p>Para definir un elemento de la lista se utiliza 'li'.</p>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;ul&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 1&lt;/li&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 2&lt;/li&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;Elemento 3&lt;/li&gt;</p>
+    <p>&lt;/ul&gt;</p>
+    <h4>RESULTADO:</h4>
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <hr>
+
+    <h1>Etiqueta 'table' - Se utiliza para crear tablas.</h1>
+    <p>La etiqueta 'tr' define una fila en la tabla</p>
+    <p>La etiqueta 'td' define una celda de datos en la tabla</p>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;table&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Celda A&lt;/td&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Celda B&lt;/td&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Celda C&lt;/td&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Celda E&lt;/td&gt;</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;</p>
+    <p>&lt;/table&gt;</p>
+    <h4>RESULTADO:</h4>
+    <table>
+        <tr>
+            <td>Celda A</td>
+            <td>Celda B</td>
+        </tr>
+        <tr>
+            <td>Celda C</td>
+            <td>Celda E</td>
+        </tr>
+    </table>
+    <hr>
+
+    <h1>Etiqueta 'u' - Se utiliza para subrayar texto.</h1>
+    <h4>EJEMPLO:</h4>
+    <p>&lt;p&gt;Este texto NO está subrayado &lt;u&gt;Este texto SI está subrayado&lt;/u&gt;&lt;/p&gt;</p>
+    <h4>RESULTADO:</h4>
+    <p>Este texto NO está subrayado <u>Este texto SI está subrayado</u></p>
+    <hr>
+
+    <h1>Etiqueta 'html' - Representa la raíz de un documento HTML</h1>
+    <p>Esta etiqueta es el contenedor de todos los demás elementos HTML</p>
+    <img src="imagenes/html.png" alt="html">
+
+    <h1>Etiqueta 'head' - Es un contenedor de metadatos.</h1>
+    <p>Se coloca entre la etiqueta 'html' y la etiqueta 'body'</p>
+    <img src="imagenes/head.png" alt="head">
+    <hr>
+
+    <h1>Etiqueta 'body' - Parte visible en pantalla del documento.</h1>
+    <p>Se coloca después del 'head'</p>
+    <img src="imagenes/body.png" alt="body">
+</body>
+</html>

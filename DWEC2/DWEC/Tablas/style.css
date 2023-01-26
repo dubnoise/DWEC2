@@ -1,0 +1,19 @@
+table, table *{
+    border-collapse: collapse;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col{
+    background-image: url('fondo_gris.gif');
+}
+
+tr:nth-child(2n){
+    background-color: #FFFFCC;
+}
+.row{
+    text-align: left;
+    background-color: #E6F3FF;
+}
+tr:hover{
+    background-color: yellow;
+}

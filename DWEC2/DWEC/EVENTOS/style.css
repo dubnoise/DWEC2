@@ -1,0 +1,121 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: red;
+}
+#div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+}
+
+#subdiv2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+}
+#div div{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    box-shadow: 4px 4px 4px black;
+}
+
+input{
+    margin: 5px;
+}
+#div2{
+    width: 50vh;
+}
+#div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+    margin-bottom: 20px;
+}
+#div4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+}
+.animation-div3{
+    animation: animation-div3 2s
+}
+
+@keyframes animation-div3{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(600px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }    
+}
+.animation-div4{
+    animation: animation-div4 2s
+}
+
+@keyframes animation-div4{
+    0%{
+        transform: translateX(0px);
+    }
+
+    50%{
+        transform: translateX(1200px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }    
+}
+#div5{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+}
+#div5 #h5{
+    color: brown;
+}
+#div6{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 8px 8px 4px black;
+}

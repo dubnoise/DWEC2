@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<body>
+    <script>
+        var numero = 0;
+        var numeros = []
+
+        for (i = 0; i < 5; i++){
+            numero = prompt("Introduce el número " + (i+1));
+            numeros.push(numero);
+        }
+
+        document.write("Multiplicamos por 3 los números introducidos: ");
+        for (let i in numeros) {
+            document.write(numeros[i] + "*3 = " + numeros[i]*3 + ", ");
+        }
+        
+
+    </script>
+</body>
+</html>

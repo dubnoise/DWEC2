@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <script>
+        var numero = 1
+        var max = Infinity;
+        var min = -Infinity;
+        var cont = 0;
+
+        while (numero != 0){
+            numero = prompt("Introduce un número (0 para salir)");
+            cont++;
+            if (cont == 1){
+                min = numero;
+                max = numero;
+            }
+            
+
+            if (numero < min && numero != 0){
+                min = numero
+            }
+            
+            if (numero > max){
+                max = numero;
+            }
+        }
+        document.write("Número máximo: " + max + ", número mínimo: " + min);
+        
+    </script>
+</body>
+</html>

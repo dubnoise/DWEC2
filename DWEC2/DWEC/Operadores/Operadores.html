@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <div id="box"></div>
+    <div id="box2"></div>
+
+    <script>
+        var nombre = prompt("Introduce tu nombre");
+        var apellido1 = prompt("Introduce tu primer apellido");
+        var fullName = nombre + " " + apellido1;
+        var edad = prompt("Introduce tu edad");
+        var year = 2022 - edad;
+
+        document.getElementById("box").innerHTML = "Nombre completo: " + fullName;
+        document.getElementById("box2").innerHTML = "Año de nacimiento: " + year; 
+    </script>
+</body>
+</html>

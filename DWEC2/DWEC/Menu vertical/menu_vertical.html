@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    ul li{
+        width: 200px;
+        height: 30px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        display: flex;
+        align-items: center;
+    }
+    .activa{
+        display: none;
+    }
+    ul li:hover{
+        background-color: #e4e4e4;
+    }
+    ul li:hover .activa{
+        display: unset;
+    }
+    ul li:hover .inactiva{
+        display: none;
+    }
+    a{
+        text-decoration: none;
+    }
+    
+</style>
+<body>
+    <ul>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 1</a></li>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 2</a></li>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 3</a></li>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 4</a></li>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 5</a></li>
+        <li><a href="#"><img class="inactiva" src="flecha_inactiva.png" alt="inactiva"><img class="activa" src="flecha_activa.png" alt="activa">Elemento 6</a></li>
+    </ul>
+</body>
+</html>

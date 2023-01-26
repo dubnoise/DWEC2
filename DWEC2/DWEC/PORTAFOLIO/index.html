@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- brittanychiang.com -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Morillas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="header-izq">
+            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        </section>
+        <section class="header-der">
+            <a href="#sobremi"><span>01.</span>Sobre mí</a>
+            <a href="#conocimientos"><span>02.</span>Conocimientos</a>
+            <a href="#trabajos"><span>03.</span>Trabajos</a>
+            <a href="#contacto" id="a-contacto" onclick="keyPress()"><span>04.</span>Contacto</a>
+        </section>
+    </header>
+    <article>
+        <section class="presentacion">
+            <h1><span>Hola, me llamo</span><br>David Morillas.</h1>
+            <div class="presentacion-p"><p>Soy un estudiante de Desarrollo de Aplicaciones Web </p></div>
+        </section>
+
+        <section class="bloque" name="sobremi" id="sobremi">
+            <h1><span>01.</span> Sobre mí <div class="linea"></div></h1>
+            <div class="bloque-p">
+                <p>Tengo 23 años, soy atento, serio y con facilidad para el aprendizaje.</p><br>
+                <p>Carnet de conducir y vehículo propio.</p><br>
+                <img src="img/foto_personal.jpg" alt="imagen_personal">
+            </div>
+        </section>
+
+        <section class="bloque" name="conocimientos" id="conocimientos">
+            <h1><span>02.</span> Conocimientos <div class="linea"></div></h1>
+            <div class="bloque-img">
+
+                <div class="card">
+                    <div class="card__inner" id="card_html5">
+                        <div class="card__face card__face--front">
+                            <div class="html5" id="html5">
+                                <img src="img/html5.png" alt="html5">
+                            </div>
+                        </div>
+                        
+                        <div class="card__face card__face--back">
+                            <p>Nivel alto de HTML5
+                            </p>
+                        </div>
+                    
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_css3">
+                        <div class="card__face card__face--front">
+                            <div class="css3" id="css3">
+                                <img src="img/css3.png" alt="css3">
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <p>Nivel medio de CSS3
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_java">
+                        <div class="card__face card__face--front">
+                            <div class="java" id="java">
+                                <img src="img/java.png" alt="java"> 
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back">
+                            <p>Nivel alto de JAVA
+                            </p>
+                        </div>
+                    </div>
+                </div>           
+                                                    
+                <button id="btnMostrar">Ver más</button>
+
+                <div class="card">
+                    <div class="card__inner" id="card_mysql" >
+                        <div class="card__face card__face--front">
+                            <div class="mysql" id="mysql">
+                                <img src="img/mysql.png" alt="mysql"> 
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back ver_mas_back">
+                            <p>Nivel medio de SQL
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_php">
+                        <div class="card__face card__face--front">
+                            <div class="php" id="php">
+                                <img src="img/php.png" alt="php"> 
+                            </div>  
+                        </div>
+                        <div class="card__face card__face--back php_back">
+                            <p>Nivel medio de PHP
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_arduino">
+                        <div class="card__face card__face--front">
+                            <div class="arduino" id="arduino">
+                                <img src="img/Arduino.png" alt="arduino">
+                            </div> 
+                        </div>
+                        <div class="card__face card__face--back arduino_back">
+                            <p>Nivel alto de ARDUINO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_multisim">
+                        <div class="card__face card__face--front">
+                            <div class="multisim" id="multisim">
+                                <img src="img/multisim.png" alt="multisim">
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back multisim_back">
+                            <p>Nivel alto de MULTISIM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__inner" id="card_kicad">
+                        <div class="card__face card__face--front">
+                            <div class="kicad" id="kicad">
+                                <img src="img/kicad.png" alt="kicad">
+                            </div>
+                        </div>
+                        <div class="card__face card__face--back" id="kicad_back">
+                            <p>Nivel medio de KICAD
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bloque" name="trabajos" id="trabajos">
+            <h1><span>03.</span> Trabajos <div class="linea"></div></h1>
+            <div class="bloque-p">
+                <h2 style="text-align: center; margin-bottom: 20px;">Mi Portafolio</h2>
+                <iframe src="Portafolio.pdf" frameborder="0"></iframe>
+            </div>
+        </section>
+
+        <section class="bloque" name="contacto" id="contacto">
+            <h1><span>04.</span> Contacto <div class="linea"></div></h1>
+            <div class="bloque-p" id="p-contacto">
+                <div class="contactos">
+                    <a class="contacto" id="gmail_contacto" href="mailto:davidmorillas123@gmail.com" target="_blank">
+                        Gmail
+                    </a>
+                    <a class="contacto" id="twitter_contacto" href="https://twitter.com/Morillas_10" target="_blank">
+                        Twitter
+                    </a>
+                    <a class="contacto" id="facebook_contacto" href="https://www.facebook.com/morillas.exctd" target="_blank">
+                        Facebook
+                    </a>
+                    <a class="contacto" id="instagram_contacto" href="https://www.instagram.com/davidmorillas_" target="_blank">
+                        Instagram
+                    </a>
+                    
+                </div>
+            </div>
+        </section>
+    </article>
+    
+    <div class="sidebar left">
+        <div class="inner">
+            <a id="twitter" href="https://twitter.com/Morillas_10" target="_blank"><img src="img/twitter.png" alt="twitter"></a>
+            <a id="facebook" href="https://www.facebook.com/morillas.exctd" target="_blank"><img src="img/facebook.png" alt="facebook"></a>
+            <a id="instagram" href="https://www.instagram.com/davidmorillas_" target="_blank"><img src="img/instagram.png" alt="instagram"></a>
+        </div>
+    </div>
+    
+    <div class="sidebar right">
+      <div class="inner">
+        <a href="mailto:davidmorillas123@gmail.com" target="_blank">davidmorillas123@gmail.com</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
